@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project of html and css</title>
+</head>
+<link rel="stylesheet" type="text/css" href="">
+<style>
+    body{
+        color:yellow;
+        margin: 0px;
+        padding: 0px;
+        background:url(https://cdn.pixabay.com/photo/2021/01/06/09/19/dresden-5893714_960_720.jpg);
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        border: 2px solid yellow;
+    }
+    .left img{
+        width: 75px;
+    }
+    .left{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin:20px auto;
+        border: 2px solid green;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid red;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: green;
+        text-decoration: none;
+        padding: 12px 12px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: red;
+    }
+    .vtn{
+        margin: 0px 8px;
+        background-color: red;
+        color: yellow;
+        padding: 3px 10px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .vtn:hover{
+        background-color: grey;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://image.shutterstock.com/z/stock-vector-pulse-people-logo-design-template-element-design-vector-design-1019796211.jpg" alt="">
+            <div>Nilesh fitnes</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">fitnes calculator</a></li>
+            <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="vtn">call us</button>
+            <button class="vtn">email</button>
+        </div>
+        
+    </header>
+</body>
+</html>
